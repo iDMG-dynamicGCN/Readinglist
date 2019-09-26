@@ -39,11 +39,25 @@
   
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
+- DBLP(2017CIKM, 2018AAAI, 2018KDD)
+- arxiv(2016TKDE, 2018KDD)
+- wiki(2018WWW, 2018AAAI)
+- Flickr(2017CIKM)
+- Infectious(2018TKDE)
+- Facebook(2016TKDE, 2018IJCAI, 2018AAAI)
+- YouTube(2016TKDE, 2018TKDE)
 
-**这里有两个网址可找到公开网络**  
-[Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/index.html)
+**这里有三个网址可找到公开网络**
 
 [Koblenz Network Collection](http://konect.uni-koblenz.de/)
 
+[Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/index.html)
+
+[Network Repository](http://networkrepository.com/)
 ### Tasks
-- link prediction
+- link prediction(2016TKDE, 2017ICML, 2018AAAI, 2018WWW, 2018KDD, 2018TKDE)  
+> 用t时刻得到的两个节点的embeddings来预测t+1时刻这两个节点是否有边  
+- node classification(2017CIKM, 2018KDD, 2018AAAI, 2018IJCAI)  
+> 用t时刻得到的节点embedding作为节点特征来确定节点的标签  
+- recommendation(2018TKDE, 2018KDD)  
+> 用t时刻得到的节点embeddings来确定与某一特定节点最可能相连的节点集合
