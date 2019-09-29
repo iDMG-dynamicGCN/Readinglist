@@ -57,5 +57,5 @@
 > 用t时刻得到的两个节点的embeddings来预测t+1时刻这两个节点是否有边  
 - node classification(2017CIKM, 2018KDD, 2018AAAI, 2018IJCAI)  
 > 用t时刻得到的节点embedding作为节点特征来确定节点的标签  
-- recommendation(2018TKDE, 2018KDD)  
+- node recommendation(2018TKDE, 2018KDD)  
 > 用t时刻得到的节点embeddings来确定与某一特定节点最可能相连的节点集合
