@@ -46,6 +46,14 @@
 - Tasks:
   - Node Classification
   
+2019 ICLR(submision) [Link Prediction in Hypergraphs using Graph Convolutional Networks](https://openreview.net/forum?id=ryeaZhRqFm)  
+- Idea: Hypergraph (directed,undirected, unlabelled) link prediction using GCN
+- Datasets
+  - DBLP
+  - CORA
+- Tasks
+  - Link Prediction
+  
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
 - DBLP(2017CIKM, 2018AAAI, 2018KDD)
