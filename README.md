@@ -37,6 +37,15 @@
   - Dynamic Link Prediction
   - Event Time Prediction
   
+2019 IJCAI [Exploiting Interaction Links for Node Classification with Deep Graph Neural Networks](https://www.ijcai.org/proceedings/2019/0447.pdf) Hogun Park and Jennifer Neville
+- Idea: GNN-LSTM for temporal embedding(Temporal Encoder), and NN/GN for Neighbor Encoder
+- Datasets
+  - DBLP
+  - Facebook
+  - IMDB_G IMDB_R
+- Tasks:
+  - Node Classification
+  
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
 - DBLP(2017CIKM, 2018AAAI, 2018KDD)
