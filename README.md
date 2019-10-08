@@ -65,7 +65,7 @@
   
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
-- DBLP(2017CIKM, 2018AAAI, 2018KDD)
+- DBLP(2017CIKM, 2018AAAI, 2018KDD) [xml](https://dblp.uni-trier.de/xml/)
 - Facebook(2016TKDE, 2018IJCAI, 2018AAAI)
 - arxiv(2016TKDE, 2018KDD)
 - wiki(2018WWW, 2018AAAI)
