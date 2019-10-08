@@ -54,6 +54,15 @@
 - Tasks
   - Link Prediction
   
+2019 [Temporal Neighbourhood Aggregation: Predicting Future Links in Temporal Graphs via Recurrent Variational Graph Convolutions](https://arxiv.org/pdf/1908.08402.pdf)
+- Idea: encoder-decoder architecture. use GCN to learn the topology, GRU to learn the temporal information and variational sampling to create more robust and meaningful vertex level representations
+- Datasets
+  - Bitcoina
+  - wiki
+  - UCI
+- Tasks
+  - Link Prediction
+  
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
 - DBLP(2017CIKM, 2018AAAI, 2018KDD)
