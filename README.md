@@ -63,6 +63,16 @@
 - Tasks
   - Link Prediction
   
+2019 [GCN-GAN: A Non-linear Temporal Link Prediction Model for Weighted Dynamic Networks](https://arxiv.org/pdf/1901.09165.pdf)
+- Idea: GCN+LSTM+GAN
+- Datasets
+  - UCSB
+  - KAIST
+  - BJ-Taxi
+  - NumFabric
+- Tasks
+  - Link Prediction
+  
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
 - DBLP(2017CIKM, 2018AAAI, 2018KDD) [xml](https://dblp.uni-trier.de/xml/)
