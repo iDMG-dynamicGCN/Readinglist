@@ -8,14 +8,7 @@
   - Sequence Modeling
   - Natural Language Modeling
 
-2017 [Dynamic graph convolutional networks](https://arxiv.org/pdf/1704.06199.pdf) Franco Manessia, Alessandro Rozza and Mario Manzo
-- Idea: GCN to obtain node embeddings and LSTM to learn the dynamism
-- Datasets: 
-  - DBLP dataset
-  - CAD-120 dataset
-- Tasks:
-  - vertex-focused classification
-  - graph-focused classification
+
 
 2019 [EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs](https://arxiv.org/pdf/1902.10191.pdf) Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler and Charles E. Leisersen
 - Idea: use a GRU to update the GCN model (network parameters) at every time step
@@ -63,15 +56,26 @@
 - Tasks
   - Link Prediction
   
-2019 [GCN-GAN: A Non-linear Temporal Link Prediction Model for Weighted Dynamic Networks](https://arxiv.org/pdf/1901.09165.pdf)
+2019 [GCN-GAN: A Non-linear Temporal Link Prediction Model for Weighted Dynamic Networks](https://arxiv.org/pdf/1901.09165.pdf) Kai Lei, Meng Qin, Bo Bai, Gong Zhang and Min Yang
 - Idea: GCN+LSTM+GAN
+  - weighted
+  - non-linear
 - Datasets
   - UCSB
   - KAIST
   - BJ-Taxi
   - NumFabric
 - Tasks
-  - Link Prediction
+  - Temporal Link Prediction
+  
+2017 [Dynamic graph convolutional networks](https://arxiv.org/pdf/1704.06199.pdf) Franco Manessia, Alessandro Rozza and Mario Manzo
+- Idea: GCN+LSTM
+- Datasets: 
+  - DBLP dataset
+  - CAD-120 dataset
+- Tasks:
+  - vertex-focused classification
+  - graph-focused classification
   
 ## Some Regularly Used Datasets and Tasks in Dynamic Setting
 ### Datasets
